@@ -1,0 +1,243 @@
+[29-Mar-2022 12:31:52 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-includes/kses.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-settings.php on line 217
+[29-Mar-2022 12:43:38 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/admin/includes/elements.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/admin/includes/admin-helper.php on line 146
+[29-Mar-2022 12:47:24 UTC] PHP Warning:  include_once(): Failed opening '/home/jnkbjngb/public_html/wp-content/plugins/wp-mail-smtp/wp_mail_smtp.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-settings.php on line 418
+[29-Mar-2022 15:27:32 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/themes/oceanwp/inc/customizer/settings/header.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/themes/oceanwp/inc/customizer/customizer.php on line 176
+[30-Mar-2022 04:11:29 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/yith-woocommerce-wishlist/plugin-fw/includes/class-yit-icons.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/yith-woocommerce-wishlist/plugin-fw/yit-plugin.php on line 32
+[30-Mar-2022 04:17:15 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/elementor/modules/page-templates/module.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 266
+[30-Mar-2022 05:41:05 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Table 'jnkbjngb_wp996.wp_wpmailsmtp_tasks_meta' doesn't exist với truy vấn SHOW FULL COLUMNS FROM `wp_wpmailsmtp_tasks_meta` yêu cầu bởi require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WPMailSMTP\Core->get_tasks, WPMailSMTP\Tasks\Tasks->init, WPMailSMTP\Tasks\Reports\SummaryEmailTask->init, WPMailSMTP\Tasks\Task->register, WPMailSMTP\Tasks\Meta->add, WPMailSMTP\Tasks\Meta->add_to_db
+[30-Mar-2022 06:26:48 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 266
+[30-Mar-2022 07:53:44 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/yith-woocommerce-wishlist/plugin-fw/includes/class-yit-plugin-common.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/yith-woocommerce-wishlist/plugin-fw/yit-plugin.php on line 24
+[31-Mar-2022 01:23:15 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/elementor/core/breakpoints/manager.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 266
+[31-Mar-2022 01:38:17 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-includes/compat.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-settings.php on line 107
+[31-Mar-2022 01:59:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/jnkbjngb/public_html/wp-includes/wp-db.php:1788
+Stack trace:
+#0 /home/jnkbjngb/public_html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /home/jnkbjngb/public_html/wp-includes/load.php(561): wpdb->__construct()
+#2 /home/jnkbjngb/public_html/wp-settings.php(124): require_wp_db()
+#3 /home/jnkbjngb/public_html/wp-config.php(98): require_once('/home/jnkbjngb/...')
+#4 /home/jnkbjngb/public_html/wp-load.php(50): require_once('/home/jnkbjngb/...')
+#5 /home/jnkbjngb/public_html/wp-admin/admin-ajax.php(22): require_once('/home/jnkbjngb/...')
+#6 {main}
+  thrown in /home/jnkbjngb/public_html/wp-includes/wp-db.php on line 1788
+[31-Mar-2022 01:59:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/jnkbjngb/public_html/wp-includes/wp-db.php:1788
+Stack trace:
+#0 /home/jnkbjngb/public_html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /home/jnkbjngb/public_html/wp-includes/load.php(561): wpdb->__construct()
+#2 /home/jnkbjngb/public_html/wp-settings.php(124): require_wp_db()
+#3 /home/jnkbjngb/public_html/wp-config.php(98): require_once('/home/jnkbjngb/...')
+#4 /home/jnkbjngb/public_html/wp-load.php(50): require_once('/home/jnkbjngb/...')
+#5 /home/jnkbjngb/public_html/wp-admin/admin.php(34): require_once('/home/jnkbjngb/...')
+#6 /home/jnkbjngb/public_html/wp-admin/post.php(12): require_once('/home/jnkbjngb/...')
+#7 {main}
+  thrown in /home/jnkbjngb/public_html/wp-includes/wp-db.php on line 1788
+[31-Mar-2022 01:59:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/jnkbjngb/public_html/wp-includes/wp-db.php:1788
+Stack trace:
+#0 /home/jnkbjngb/public_html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /home/jnkbjngb/public_html/wp-includes/load.php(561): wpdb->__construct()
+#2 /home/jnkbjngb/public_html/wp-settings.php(124): require_wp_db()
+#3 /home/jnkbjngb/public_html/wp-config.php(98): require_once('/home/jnkbjngb/...')
+#4 /home/jnkbjngb/public_html/wp-load.php(50): require_once('/home/jnkbjngb/...')
+#5 /home/jnkbjngb/public_html/wp-admin/admin.php(34): require_once('/home/jnkbjngb/...')
+#6 /home/jnkbjngb/public_html/wp-admin/post.php(12): require_once('/home/jnkbjngb/...')
+#7 {main}
+  thrown in /home/jnkbjngb/public_html/wp-includes/wp-db.php on line 1788
+[31-Mar-2022 01:59:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/jnkbjngb/public_html/wp-includes/wp-db.php:1788
+Stack trace:
+#0 /home/jnkbjngb/public_html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /home/jnkbjngb/public_html/wp-includes/load.php(561): wpdb->__construct()
+#2 /home/jnkbjngb/public_html/wp-settings.php(124): require_wp_db()
+#3 /home/jnkbjngb/public_html/wp-config.php(98): require_once('/home/jnkbjngb/...')
+#4 /home/jnkbjngb/public_html/wp-load.php(50): require_once('/home/jnkbjngb/...')
+#5 /home/jnkbjngb/public_html/wp-admin/admin.php(34): require_once('/home/jnkbjngb/...')
+#6 /home/jnkbjngb/public_html/wp-admin/index.php(10): require_once('/home/jnkbjngb/...')
+#7 {main}
+  thrown in /home/jnkbjngb/public_html/wp-includes/wp-db.php on line 1788
+[31-Mar-2022 02:41:35 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/elementor/includes/elements/section.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/elementor/includes/managers/elements.php on line 353
+[31-Mar-2022 02:53:16 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/woo-variation-swatches/includes/hooks.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/woo-variation-swatches/woo-variation-swatches.php on line 70
+[31-Mar-2022 02:57:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Plugin' not found in /home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/includes/assets-manager.php:260
+Stack trace:
+#0 /home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/includes/assets-manager.php(241): PremiumAddons\Includes\Assets_Manager->is_built_with_elementor()
+#1 /home/jnkbjngb/public_html/wp-includes/class-wp-hook.php(307): PremiumAddons\Includes\Assets_Manager->set_assets_vars(Object(WP))
+#2 /home/jnkbjngb/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/jnkbjngb/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#4 /home/jnkbjngb/public_html/wp-includes/class-wp.php(771): do_action_ref_array('wp', Array)
+#5 /home/jnkbjngb/public_html/wp-includes/functions.php(1310): WP->main(Array)
+#6 /home/jnkbjngb/public_html/wp-admin/includes/post.php(1239): wp(Array)
+#7 /home/jnkbjngb/public_html/wp-admin/includes/class-wp-posts-list-table.php(166): wp_edit_posts_query()
+ in /home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/includes/assets-manager.php on line 260
+[31-Mar-2022 02:57:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Plugin' not found in /home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/includes/assets-manager.php:260
+Stack trace:
+#0 /home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/includes/assets-manager.php(241): PremiumAddons\Includes\Assets_Manager->is_built_with_elementor()
+#1 /home/jnkbjngb/public_html/wp-includes/class-wp-hook.php(307): PremiumAddons\Includes\Assets_Manager->set_assets_vars(Object(WP))
+#2 /home/jnkbjngb/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/jnkbjngb/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#4 /home/jnkbjngb/public_html/wp-includes/class-wp.php(771): do_action_ref_array('wp', Array)
+#5 /home/jnkbjngb/public_html/wp-includes/functions.php(1310): WP->main(Array)
+#6 /home/jnkbjngb/public_html/wp-admin/includes/post.php(1239): wp(Array)
+#7 /home/jnkbjngb/public_html/wp-admin/includes/class-wp-posts-list-table.php(166): wp_edit_posts_query()
+ in /home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/includes/assets-manager.php on line 260
+[31-Mar-2022 02:58:49 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/ProductCollectionDataSchema.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+[31-Mar-2022 03:01:44 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-includes/class-wp-http-cookie.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-settings.php on line 239
+[31-Mar-2022 03:01:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/includes/freemius/includes/class-fs-security.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/includes/freemius/require.php on line 48
+[31-Mar-2022 03:01:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/header-footer-elementor/header-footer-elementor.php on line 27
+[31-Mar-2022 03:03:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/themes/oceanwp/inc/helpers.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/themes/oceanwp/functions.php on line 188
+[31-Mar-2022 03:04:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/includes/wc-admin-update-functions.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/FeaturePlugin.php on line 69
+[31-Mar-2022 03:04:35 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/includes/panel/import-export.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/includes/panel/theme-panel.php on line 599
+[31-Mar-2022 03:09:34 UTC] PHP Warning:  include_once(): Failed opening '/home/jnkbjngb/public_html/wp-content/plugins/contact-form-7/modules/number.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/contact-form-7/includes/functions.php on line 48
+[31-Mar-2022 03:09:35 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/header-footer-elementor/themes/oceanwp/class-hfe-oceanwp-compat.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php on line 82
+[31-Mar-2022 03:17:57 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-includes/taxonomy.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-settings.php on line 221
+[31-Mar-2022 03:38:45 UTC] PHP Warning:  include(): Failed opening '/home/jnkbjngb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php on line 122
+[31-Mar-2022 03:38:45 UTC] PHP Fatal error:  Uncaught Error: Class 'ActionScheduler_AdminView' not found in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php:41
+Stack trace:
+#0 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(148): ActionScheduler::admin_view()
+#1 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(55): ActionScheduler::init('/home/jnkbjngb/...')
+#2 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Versions.php(59): action_scheduler_initialize_3_dot_4_dot_0()
+#3 /home/jnkbjngb/public_html/wp-includes/class-wp-hook.php(305): ActionScheduler_Versions::initialize_latest_version()
+#4 /home/jnkbjngb/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(Object(WPMailSMTP\Compatibility\Compatibility), Array)
+#5 /home/jnkbjngb/public_html/wp-includes/plugin.php(474): WP_Hook-> in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php on line 41
+[31-Mar-2022 04:26:25 UTC] PHP Warning:  include_once(): Failed opening '/home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-wc-order-factory.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 435
+[31-Mar-2022 04:26:26 UTC] PHP Fatal error:  Uncaught Error: Class 'WC_Order_Factory' not found in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/src/Proxies/LegacyProxy.php:61
+Stack trace:
+#0 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/src/Internal/RestockRefundedItemsAdjuster.php(29): Automattic\WooCommerce\Proxies\LegacyProxy->get_instance_of('WC_Order_Factor...')
+#1 [internal function]: Automattic\WooCommerce\Internal\RestockRefundedItemsAdjuster->init()
+#2 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/Definition.php(34): call_user_func_array(Array, Array)
+#3 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/lib/packages/League/Container/Definition/Definition.php(212): Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClass(Object(Automattic\WooCommerce\Internal\RestockRefundedItemsAdjuster))
+#4 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/lib/packages/League/Container/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\Vendor in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/src/Proxies/LegacyProxy.php on line 61
+[31-Mar-2022 04:26:56 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-includes/theme.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-settings.php on line 171
+[01-Apr-2022 01:20:03 UTC] PHP Warning:  include_once(): Failed opening '/home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-download-data-store.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 483
+[01-Apr-2022 01:20:04 UTC] PHP Fatal error:  Uncaught Exception: Dữ liệu cửa hàng không hợp lệ. in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:101
+Stack trace:
+#0 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct('customer-downlo...')
+#1 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/src/Proxies/LegacyProxy.php(57): WC_Data_Store::load('customer-downlo...')
+#2 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/src/Internal/DownloadPermissionsAdjuster.php(30): Automattic\WooCommerce\Proxies\LegacyProxy->get_instance_of('WC_Data_Store', 'customer-downlo...')
+#3 [internal function]: Automattic\WooCommerce\Internal\DownloadPermissionsAdjuster->init()
+#4 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/Definition.php(34): call_user_func_array(Array, Array)
+#5 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/lib/packages/League/Container/Definition/Definition. in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 101
+[01-Apr-2022 01:42:42 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-edd-client-migration.php on line 18
+[01-Apr-2022 03:49:53 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-includes/rest-api.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-settings.php on line 251
+[01-Apr-2022 04:17:29 UTC] PHP Fatal error:  Uncaught Error: Class 'PremiumAddons\Includes\Assets_Manager' not found in /home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/includes/class-pa-core.php:131
+Stack trace:
+#0 /home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/includes/class-pa-core.php(94): PremiumAddons\Includes\PA_Core->load_files()
+#1 /home/jnkbjngb/public_html/wp-includes/class-wp-hook.php(307): PremiumAddons\Includes\PA_Core->premium_addons_elementor_setup('')
+#2 /home/jnkbjngb/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/jnkbjngb/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/jnkbjngb/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#5 /home/jnkbjngb/public_html/wp-config.php(98): require_once('/home/jnkbjngb/...')
+#6 /home/jnkbjngb/public_html/wp-load.php(50): require_once('/home/jnkbjngb/...')
+#7 /home/jnkbjngb/public_html/wp-admin/admin-ajax.php(22): require_once('/home/jnkbjngb/...')
+#8 {main}
+  thr in /home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/includes/class-pa-core.php on line 131
+[01-Apr-2022 04:18:01 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/menu-icons/includes/library/font-awesome5/backward-compatible-icons.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/menu-icons/menu-icons.php on line 95
+[01-Apr-2022 04:19:05 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-admin/includes/template.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/wpforms-lite/src/Integrations/WPorg/Translations.php on line 37
+[01-Apr-2022 04:32:08 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/action-scheduler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/wpforms-lite/src/WPForms.php on line 225
+[01-Apr-2022 04:36:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Abstract_WC_Order_Data_Store_CPT' not found in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-data-store-cpt.php:17
+Stack trace:
+#0 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(487): include_once()
+#1 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(172): WooCommerce->includes()
+#2 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(131): WooCommerce->__construct()
+#3 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/woocommerce.php(47): WooCommerce::instance()
+#4 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/woocommerce.php(62): WC()
+#5 /home/jnkbjngb/public_html/wp-settings.php(418): include_once('/home/jnkbjngb/...')
+#6 /home/jnkbjngb/public_html/wp-config.php(98): require_once('/home/jnkbjngb/...')
+#7 /home/jnkbjngb/public_html/wp-load.php(50): require_once('/home/jnkbjngb/...')
+#8 /home/jnkbjngb/p in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-data-store-cpt.php on line 17
+[01-Apr-2022 12:21:22 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/includes/panel/library.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/ocean-extra.php on line 120
+[01-Apr-2022 12:22:55 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-includes/pluggable.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-settings.php on line 432
+[02-Apr-2022 01:44:21 UTC] PHP Warning:  include_once(): Failed opening '/home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-assets.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin.php on line 63
+[02-Apr-2022 02:00:26 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-product-categories.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/wc-widget-functions.php on line 21
+[02-Apr-2022 02:00:43 UTC] PHP Fatal error:  Uncaught Error: Class 'WC_Legacy_API' not found in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-wc-api.php:19
+Stack trace:
+#0 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(495): include_once()
+#1 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(172): WooCommerce->includes()
+#2 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(131): WooCommerce->__construct()
+#3 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/woocommerce.php(47): WooCommerce::instance()
+#4 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/woocommerce.php(62): WC()
+#5 /home/jnkbjngb/public_html/wp-settings.php(418): include_once('/home/jnkbjngb/...')
+#6 /home/jnkbjngb/public_html/wp-config.php(98): require_once('/home/jnkbjngb/...')
+#7 /home/jnkbjngb/public_html/wp-load.php(50): require_once('/home/jnkbjngb/...')
+#8 /home/jnkbjngb/public_html/wp-admin/admin-ajax.php(22): require_ in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-wc-api.php on line 19
+[02-Apr-2022 02:08:44 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-includes/rest-api/endpoints/class-wp-rest-menus-controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-settings.php on line 266
+[02-Apr-2022 02:22:43 UTC] PHP Fatal error:  Cannot declare class devvnDateRange, because the name is already in use in /home/jnkbjngb/public_html/wp-content/plugins/devvn-woo-ghn/includes/class-order-style.php on line 336
+[02-Apr-2022 02:30:22 UTC] PHP Fatal error:  Cannot declare class devvnDateRange, because the name is already in use in /home/jnkbjngb/public_html/wp-content/plugins/devvn-woo-ghn/includes/class-order-style.php on line 336
+[02-Apr-2022 02:41:32 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Tax.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+[02-Apr-2022 03:20:01 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/themes/oceanwp/inc/third/class-beaver-themer.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/themes/oceanwp/functions.php on line 198
+[02-Apr-2022 03:20:01 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-includes/sodium_compat/src/SodiumException.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-includes/sodium_compat/autoload.php on line 48
+[02-Apr-2022 03:23:25 UTC] PHP Warning:  include_once(): Failed opening '/home/jnkbjngb/public_html/wp-content/plugins/contact-form-7/modules/quiz.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/contact-form-7/includes/functions.php on line 48
+[02-Apr-2022 04:07:28 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-admin/includes/plugin.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/yith-woocommerce-wishlist/init.php on line 135
+[02-Apr-2022 04:07:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/includes/metabox/metabox.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/ocean-extra.php on line 345
+[02-Apr-2022 04:08:13 UTC] PHP Fatal error:  Cannot declare class devvnDateRange, because the name is already in use in /home/jnkbjngb/public_html/wp-content/plugins/devvn-woo-ghn/includes/class-order-style.php on line 336
+[02-Apr-2022 15:17:29 UTC] PHP Warning:  include_once(): Failed opening '/home/jnkbjngb/public_html/wp-content/plugins/contact-form-7/modules/constant-contact/service.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/contact-form-7/includes/functions.php on line 48
+[02-Apr-2022 15:17:40 UTC] PHP Fatal error:  Uncaught Error: Class 'WPCF7_ConstantContact' not found in /home/jnkbjngb/public_html/wp-content/plugins/contact-form-7/modules/constant-contact/contact-form-properties.php:13
+Stack trace:
+#0 /home/jnkbjngb/public_html/wp-includes/class-wp-hook.php(307): wpcf7_constant_contact_register_property(Array, Object(WPCF7_ContactForm))
+#1 /home/jnkbjngb/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 /home/jnkbjngb/public_html/wp-content/plugins/contact-form-7/includes/contact-form.php(277): apply_filters('wpcf7_pre_const...', Array, Object(WPCF7_ContactForm))
+#3 /home/jnkbjngb/public_html/wp-content/plugins/contact-form-7/includes/contact-form.php(207): WPCF7_ContactForm->construct_properties(Object(WP_Post))
+#4 /home/jnkbjngb/public_html/wp-content/plugins/contact-form-7/includes/contact-form.php(94): WPCF7_ContactForm->__construct(Object(WP_Post))
+#5 /home/jnkbjngb/public_html/wp-content/plugins/contact-form-7/includes/block-editor/block-editor.php(58): WPCF7_ContactForm::find(Arra in /home/jnkbjngb/public_html/wp-content/plugins/contact-form-7/modules/constant-contact/contact-form-properties.php on line 13
+[03-Apr-2022 04:19:01 UTC] PHP Warning:  include(): Failed opening '/home/jnkbjngb/public_html/wp-content/plugins/wpforms-lite/vendor/composer/../../src/Admin/Addons/AddonsCache.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/menu-icons/vendor/composer/ClassLoader.php on line 571
+[03-Apr-2022 04:19:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::get_cached() in /home/jnkbjngb/public_html/wp-content/plugins/wpforms-lite/src/Admin/Addons/Addons.php:64
+Stack trace:
+#0 /home/jnkbjngb/public_html/wp-content/plugins/wpforms-lite/src/WPForms.php(324): WPForms\Admin\Addons\Addons->init()
+#1 /home/jnkbjngb/public_html/wp-includes/class-wp-hook.php(307): WPForms\WPForms->WPForms\{closure}('')
+#2 /home/jnkbjngb/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/jnkbjngb/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/jnkbjngb/public_html/wp-content/plugins/wpforms-lite/src/WPForms.php(281): do_action('wpforms_loaded')
+#5 /home/jnkbjngb/public_html/wp-includes/class-wp-hook.php(307): WPForms\WPForms->objects('')
+#6 /home/jnkbjngb/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /home/jnkbjngb/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#8 /home/jnkbjngb/public_html/wp-settings.php(45 in /home/jnkbjngb/public_html/wp-content/plugins/wpforms-lite/src/Admin/Addons/Addons.php on line 64
+[03-Apr-2022 05:06:32 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-includes/class-wp-application-passwords.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-settings.php on line 250
+[03-Apr-2022 12:18:59 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/yith-woocommerce-wishlist/plugin-fw/includes/class-yit-video.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/yith-woocommerce-wishlist/plugin-fw/yit-plugin.php on line 29
+[03-Apr-2022 12:18:59 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/yith-woocommerce-wishlist/plugin-fw/includes/privacy/class-yith-privacy-plugin-abstract.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/yith-woocommerce-wishlist/plugin-fw/yit-plugin.php on line 37
+[03-Apr-2022 12:21:57 UTC] PHP Warning:  include_once(): Failed opening '/home/jnkbjngb/public_html/wp-content/plugins/gtranslate/gtranslate.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-settings.php on line 418
+[03-Apr-2022 14:06:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PremiumAddons\Admin\Includes\Duplicator' not found in /home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/admin/includes/admin-helper.php:114
+Stack trace:
+#0 /home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/admin/includes/admin-helper.php(1174): PremiumAddons\Admin\Includes\Admin_Helper->__construct()
+#1 /home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/includes/class-pa-core.php(126): PremiumAddons\Admin\Includes\Admin_Helper::get_instance()
+#2 /home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/includes/class-pa-core.php(94): PremiumAddons\Includes\PA_Core->load_files()
+#3 /home/jnkbjngb/public_html/wp-includes/class-wp-hook.php(307): PremiumAddons\Includes\PA_Core->premium_addons_elementor_setup('')
+#4 /home/jnkbjngb/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /home/jnkbjngb/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#6 /h in /home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/admin/includes/admin-helper.php on line 114
+[03-Apr-2022 14:36:37 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Routes/Checkout.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+[03-Apr-2022 14:36:37 UTC] PHP Warning:  mysqli_query(): (HY000/2013): Lost connection to MySQL server during query in /home/jnkbjngb/public_html/wp-includes/wp-db.php on line 2162
+[03-Apr-2022 14:36:37 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Lost connection to MySQL server during query với truy vấn SELECT option_value FROM wp_options WHERE option_name = 'fs_api_cache' LIMIT 1 yêu cầu bởi require_once('wp-admin/admin.php'), require('wp-admin/menu.php'), require_once('wp-admin/includes/menu.php'), do_action('admin_menu'), WP_Hook->do_action, WP_Hook->apply_filters, Freemius->_prepare_admin_menu, Freemius->add_submenu_items, Freemius->is_whitelabeled, Freemius->get_updated_account_addons, Freemius->get_addons, Freemius->sync_addons, Freemius->get_api_site_or_plugin_scope, Freemius->get_api_site_scope, FS_Api::instance, FS_Api::_init, FS_Cache_Manager::get_manager, FS_Cache_Manager->__construct, FS_Option_Manager::get_manager, FS_Option_Manager->__construct, FS_Option_Manager->load, get_option
+[03-Apr-2022 14:37:02 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/includes/widgets/flickr.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/ocean-extra.php on line 400
+[03-Apr-2022 14:37:02 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/NoteTraits.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+[03-Apr-2022 14:45:48 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-includes/php-compat/readonly.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-includes/general-template.php on line 4869
+[03-Apr-2022 14:58:52 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/woo-variation-swatches/includes/class-wvs-term-meta.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/woo-variation-swatches/woo-variation-swatches.php on line 68
+[03-Apr-2022 15:08:15 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-includes/vars.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-settings.php on line 398
+[03-Apr-2022 15:13:37 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-includes/block-supports/dimensions.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-settings.php on line 324
+[03-Apr-2022 15:13:46 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/elementor//includes/managers/elements.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 266
+[03-Apr-2022 15:13:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/contact-form-7/admin/includes/config-validator.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/contact-form-7/admin/admin.php on line 7
+[03-Apr-2022 15:25:06 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-includes/class-requests.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-includes/class-wp-http.php on line 11
+[03-Apr-2022 15:25:43 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Platform/WordPress/Integration/Brizy/Brizy.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/smart-slider-3/Nextend/Autoloader.php on line 194
+[03-Apr-2022 15:45:07 UTC] PHP Fatal error:  Cannot declare class devvnDateRange, because the name is already in use in /home/jnkbjngb/public_html/wp-content/plugins/devvn-woo-ghn/includes/class-order-style.php on line 336
+[03-Apr-2022 15:46:32 UTC] PHP Fatal error:  Cannot declare class devvnDateRange, because the name is already in use in /home/jnkbjngb/public_html/wp-content/plugins/devvn-woo-ghn/includes/class-order-style.php on line 336
+[03-Apr-2022 15:58:17 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-includes/class-requests.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-includes/class-wp-http.php on line 11
+[03-Apr-2022 17:01:03 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Package.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+[06-Apr-2022 06:48:16 UTC] PHP Warning:  include_once(): Failed opening '/home/jnkbjngb/public_html/wp-content/plugins/wpforms-lite/wpforms.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-settings.php on line 418
+[06-Apr-2022 06:54:21 UTC] PHP Warning:  include(): Failed opening '/home/jnkbjngb/public_html/wp-content/plugins/wpforms-lite/vendor/composer/../../src/Admin/Builder/Templates.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/menu-icons/vendor/composer/ClassLoader.php on line 571
+[06-Apr-2022 06:55:38 UTC] PHP Warning:  include_once(): Failed opening '/home/jnkbjngb/public_html/wp-content/plugins/contact-form-7/modules/acceptance.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/contact-form-7/includes/functions.php on line 48
+[06-Apr-2022 06:57:59 UTC] PHP Warning:  include_once(): Failed opening '/home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 486
+[06-Apr-2022 06:57:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Abstract_WC_Order_Data_Store_CPT' not found in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-data-store-cpt.php:17
+Stack trace:
+#0 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(487): include_once()
+#1 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(172): WooCommerce->includes()
+#2 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(131): WooCommerce->__construct()
+#3 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/woocommerce.php(47): WooCommerce::instance()
+#4 /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/woocommerce.php(62): WC()
+#5 /home/jnkbjngb/public_html/wp-settings.php(418): include_once('/home/jnkbjngb/...')
+#6 /home/jnkbjngb/public_html/wp-config.php(98): require_once('/home/jnkbjngb/...')
+#7 /home/jnkbjngb/public_html/wp-load.php(50): require_once('/home/jnkbjngb/...')
+#8 /home/jnkbjngb/p in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-data-store-cpt.php on line 17
+[06-Apr-2022 12:12:41 UTC] PHP Warning:  include(): Failed opening '/home/jnkbjngb/public_html/wp-content/plugins/wpforms-lite/vendor/composer/../../src/Admin/FormEmbedWizard.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/menu-icons/vendor/composer/ClassLoader.php on line 571
+[06-Apr-2022 13:43:28 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/includes/metabox/butterbean/class-butterbean.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/includes/metabox/butterbean/butterbean.php on line 41
+[06-Apr-2022 13:43:28 UTC] PHP Warning:  include_once(): Failed opening '/home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-wc-privacy-erasers.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/includes/class-wc-privacy.php on line 59
+[06-Apr-2022 14:07:31 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/includes/freemius/includes/class-fs-storage.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/includes/freemius/require.php on line 50
+[07-Apr-2022 04:58:49 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/ocean-extra/includes/freemius/require.php on line 27
+[07-Apr-2022 05:02:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/wp-mail-smtp/src/Compatibility/Plugin/PluginAbstract.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/wp-mail-smtp/wp-mail-smtp.php on line 40
+[07-Apr-2022 05:11:10 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AllProducts.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+[07-Apr-2022 05:15:25 UTC] PHP Fatal error:  require(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Platform/WordPress/Widget/WidgetHelper.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/smart-slider-3/Nextend/Autoloader.php on line 194
+[07-Apr-2022 14:03:41 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/admin/includes/elements.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jnkbjngb/public_html/wp-content/plugins/premium-addons-for-elementor/admin/includes/admin-helper.php on line 146
